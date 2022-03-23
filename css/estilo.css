@@ -1,0 +1,45 @@
+    html {
+        cursor: url(/imagens/mata_mosca.png) 30 30, auto;
+    }
+    
+    /* imagem de fundo do game */
+    body {
+        background-image: url(../imagens/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    /* estilo do mosquito */
+    .mosquito1 {
+        width: 50px;
+        height: 50px;
+    }
+    .mosquito2 {
+        width: 70px;
+        height: 70px;
+    }
+    .mosquito3 {
+        width: 90px;
+        height: 90px;
+    }
+    .ladoB {
+        transform: scaleX(-1);
+    }
+    /* estilo das divs textuais */
+    .painel {
+        position: absolute;
+        width: 190px;
+        padding: 10px;
+        left: 0px;
+        bottom: 0px;
+        border-top: 1px solid white;
+        background-color: white;
+        opacity: 0.7;
+    }
+    .vidas {
+        float: left;
+    }
+    .cronometro {
+        float: left;
+        font-weight: bold;
+        font-size: 20px;
+    }
